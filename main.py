@@ -7,7 +7,7 @@ import time
 
 # Load token from environment variables
 load_dotenv()
-TOKEN = os.getenv('7434733526:AAGsorRnGaWWzicG-yiWYdpACVIIR4aJwdI')
+TOKEN = os.getenv('TELEGRAM_TOKEN')
 bot = telebot.TeleBot(TOKEN)
 
 # Folder to store downloaded files
